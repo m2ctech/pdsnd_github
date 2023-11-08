@@ -30,5 +30,7 @@ Data analysis using data provided by [Motivate](https://motivateco.com/), a bike
 * [Udacity](https://udacity.com) - Programming for Data Science with Python Nanodegree program by Udacity played a very important role in the development of this project.
 * [pandas docs](http://pandas.pydata.org/pandas-docs/stable/) - Pandas documentation.
 * [python3 docs](https://docs.python.org/3/) - Python 3 documentation.
+* [Markdown Quick Reference Cheat Sheet](https://wordpress.com/support/markdown-quick-reference/).
+
 
 
