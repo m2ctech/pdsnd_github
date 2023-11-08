@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITY_DATA = {
     "chicago": "chicago.csv",
@@ -109,15 +109,13 @@ def time_stats(df):
     print("\nCalculating The Most Frequent Times of Travel...\n")
     start_time = time.time()
 
-    # Display the most common month
+    # Display the most common month, day of week and start hour
     common_month = df["month"].mode()[0]
     print(f"The most common month is: {int(common_month)}")
 
-    # Display the most common day of the week
     common_day = df["day_of_week"].mode()[0]
     print(f"The most common day of the week is: {common_day}")
 
-    # Display the most common start hour
     df["hour"] = df["Start Time"].dt.hour
     common_start_hour = df["hour"].mode()[0]
     print(f"The most common start hour is: {common_start_hour}")
